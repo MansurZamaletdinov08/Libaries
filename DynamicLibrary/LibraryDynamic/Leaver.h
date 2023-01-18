@@ -1,7 +1,7 @@
 #include <iostream>
 #pragma once
 
-#ifdef DLL_EXPORTS
+#ifdef LIBRARYDYNAMIC_EXPORTS
 #define DLL_API __declspec(dllexport)
 #else
 #define DLL_API __declspec(dllimport)
